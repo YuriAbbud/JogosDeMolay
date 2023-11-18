@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    color: white;
+    background: linear-gradient(to left, #0078A6, #5DE0E6);
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+}
+
+header > h1 {
+    margin: 30px;
+    font-size: 48px;
+}
+
+#logo-mce {
+    position: fixed;
+    top: 50%; /* Ajusta a metade da altura da imagem */
+    left: 50%; /* Ajusta a metade da largura da imagem */
+    transform: translate(-50%, -50%); /* Centraliza a imagem */
+    height: 85vh;
+    background-position-x: center;
+    opacity: 10%;
+    z-index: -1;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#areaAdicionar {
+    font-size: 10px;
+}
+
+#campoNomeNovaEquipe {
+    margin-right: 6px;
+    padding: 5px 5px;
+    border-radius: 7px;
+    border-style: none;
+    font-size: 16px;
+}
+
+#adicionarButton {
+    padding: 5px 10px;
+    border-radius: 7px;
+    border-style: solid;
+    background-color: #008CC3;
+    border-color: #006289;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    box-shadow: 0px 4px 0px #00384E;
+    opacity: 0.9;
+}
+
+#adicionarButton:hover {
+    background-color: #00A0DF;
+}
+
+table {
+    margin: 20px;
+    font-size: 18px;
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+
+thead {
+    text-align: center;
+    justify-self: center;
+    font-weight: 600;
+}
+
+td {
+  border: solid 1px white;
+  color: white;
+  padding: 1px 8px;
+}
+
+#tabela-equipe {
+    text-align: center;
+}
+
+#areaAcoes {
+    width: 300px;
+}
+
+#areaButtons {
+    padding: 3px 0px;
+    border-left-style: none;
+    border-right-style: none;
+}
+
+.actionsButtons {
+    border-style: none;
+    border-radius: 6px;
+    margin: 0px 5px 3px 5px;
+    padding: 3px 9px;
+    transition: background-color 300ms ease-in-out;
+    font-weight: 600;
+    font-size: 16px;
+    color: #202020;
+    opacity: 0.9;
+}
+
+#vitoriaButton {
+    background-color: #24fb48;
+    box-shadow: 0px 3px 0px #0c5217;
+    margin-left: 2.5px;
+}
+
+#vitoriaButton:hover {
+    background-color: #00ff2a;
+    opacity: 1;
+}
+
+#empateButton {
+    background-color: #FB8B24;
+    box-shadow: 0px 3px 0px #5b330d;
+}
+
+#empateButton:hover {
+    background-color: #ff7b00;
+    opacity: 1;
+}
+
+#derrotaButton {
+    background-color: #fb2424;
+    box-shadow: 0px 3px 0px #5d0e0e;
+}
+
+#derrotaButton:hover {
+    background-color: #ff0000;
+    opacity: 1;
+}
+
+#resetButton {
+    background-color: #f4fb24;
+    box-shadow: 0px 3px 0px #52550c;
+}
+
+#resetButton:hover {
+    background-color: #f6ff00;
+    opacity: 1;
+}
+
+
+#removeButton {
+    background-color: #EBF5DF;
+    box-shadow: 0px 3px 0px #545850;
+    margin-right: 2.5px;
+}
+
+#removeButton:hover {
+    background-color: #f8ffef;
+    opacity: 1;
+}

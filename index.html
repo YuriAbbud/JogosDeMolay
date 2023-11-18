@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Jogos DeMolay</title>
+</head>
+<body>
+    <header>
+        <img src="logo-gabinete-mce.png" alt="Gabinete do Mestre Conselheiro Estadual de São Paulo 2023/2024" id="logo-mce">
+        <h1>Jogos DeMolay</h1>
+    </header>
+    <main>
+        <div id="areaAdicionar">
+            <input type="text" id="campoNomeNovaEquipe" placeholder="digite o nome da equipe">
+            <button onclick="adicionarEquipe()" id="adicionarButton">Adicionar Equipe</button>
+        </div>
+        <table>
+            <thead id="principal">
+                <tr>
+                    <td>Equipe</td>
+                    <td>Vitórias</td>
+                    <td>Empates</td>
+                    <td>Derrotas</td>
+                    <td>Pontos</td>
+                    <td colspan="5" id="areaAcoes">Ações</td>
+                </tr>
+            </thead>
+            <tbody id="tabela-equipe"></tbody>
+        </table>
+    </main>
+    <img src="logo-gabinete-mce.png" alt="Gabinete do Mestre Conselheiro Estadual de São Paulo 2023/2024" id="logo-mce">
+    <script src="script.js"></script>
+</body>
+</html>
